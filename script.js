@@ -17,3 +17,8 @@ else{
 } 
 inputBox.value ="";
 }
+listContainer.addEventListener("click",function(e){
+    if(e.target.targetName === "LI"){
+        e.target.classList.toggle("checked");
+    }
+});
