@@ -84,7 +84,8 @@ ul li.checked{
 
 }
 ul li.checked::before{
-    background-image:url(images/checked.png) ;
+    background-image:none ;
+    background-color: orange;
 }
 
 ul li span{
